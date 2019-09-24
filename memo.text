@@ -1,0 +1,17 @@
+参考
+http://ykubot.com/2017/10/22/react-native-expo-image-picker/
+
+インストールパッケージ
+npm install react-native-modal
+expo install expo-camera
+expo install expo-permissions
+
+
+eslint
+・prefer-stateless-function（無効）
+Stateの変更がないコンポーネントはclassで定義するな
+
+・jsx-filename-extension（無効）
+jsxフォーマットなのに拡張子が.jsxでない
+
+・no-use-before-define"（無効）
